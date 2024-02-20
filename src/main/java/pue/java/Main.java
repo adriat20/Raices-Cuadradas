@@ -1,14 +1,13 @@
 package pue.java;
-
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
-    // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
     public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
         Raices r;
-        do {
-            Scanner teclado = new Scanner(System.in);
+        int intentos = 0;
 
+        do {
             System.out.println("Introduce un valor para a");
             float a = teclado.nextFloat();
             System.out.println("Introduce un valor para b");
@@ -16,12 +15,14 @@ public class Main {
             System.out.println("Introduce un valor para c");
             float c = teclado.nextFloat();
             r = new Raices(a, b, c);
+            intentos++;
+        } while (r.obtenerRaices() == null && intentos < 3);
 
-
-        } while (!r.obtenerRaices());
-
-
-        System.out.println("Los resultados de la raiz son " + r.getRaiz1() + " y " + r.getRaiz2());
+        Soluciones soluciones = r.obtenerRaices();
+        if (soluciones != null) {
+            System.out.println("Los resultados de la raiz son " + soluciones.x1() + " y " + soluciones.x2());
+        } else {
+            throw new IllegalArgumentException("La raíz no tiene solución real");
+        }
     }
 }
-
