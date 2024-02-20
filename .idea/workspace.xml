@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb5df091-6afe-49f1-810d-128c3861079f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pue/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pue/java/Raices.java" afterDir="false" />
-    </list>
+    <list default="true" id="eb5df091-6afe-49f1-810d-128c3861079f" name="Changes" comment="Ejercicio de Raices." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,12 +123,33 @@
       <option name="presentableId" value="Default" />
       <updated>1708419270617</updated>
       <workItem from="1708419271706" duration="2303000" />
-      <workItem from="1708421838451" duration="1428000" />
+      <workItem from="1708421838451" duration="1739000" />
     </task>
+    <task id="LOCAL-00001" summary="Ejercicio de Raices.">
+      <option name="closed" value="true" />
+      <created>1708423512647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708423512647</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ejercicio de Raices.">
+      <option name="closed" value="true" />
+      <created>1708423519794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708423519794</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ejercicio de Raices." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio de Raices." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
